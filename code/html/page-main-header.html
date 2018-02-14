@@ -1,0 +1,29 @@
+<div class="page-main-header">
+    <span ng-if="title" class="main-title">{{title}}</span>
+    <div ng-if="breadcrumbs" class="main-title">
+        <span ng-repeat="crumb in breadcrumbs track by $index"
+              class="main-title breadcrumb-title">
+            <span ng-if="!$last">
+                <span ng-click="redirectBreadcrumb()" class="breadcrumb">{{crumb}}</span>
+                <span class="crumb-arrow">></span>
+            </span>
+            <span ng-if="$last">
+                <span class="breadcrumb">{{crumb}}</span>
+            </span>
+        </span>
+    </div>
+    <div class="header-input-group">
+        <div ng-if="extraInfo" class="header-extra-info">
+            <span>{{extraInfo}}</span>
+        </div>
+        <filter-sort-input ng-if="filterInput"
+                           on-sort="onSort(property)"
+                           on-filter="onFilter(input)"
+                           existing-types="existingTypes">
+        </filter-sort-input>
+        <toggle-view-input ng-if="toggleInput"></toggle-view-input>
+        <div ng-if="createNewEntry"
+             class="large-input-button user-input-button"
+             ng-click="create()">Create</div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+.flag {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: 130% 145%;
+  background-position: 50% 50%;
+
+  &.montenegro-flag {
+    background-image: url('assets/images/sr.png');
+  }
+  &.england-flag {
+    background-image: url('assets/images/en.png');
+  }
+  &.rounded {
+    border-radius: 50% 50%;
+  }
+}
+.flag-name {
+  position: absolute;
+  bottom: 15px;
+  color: $content-bg-color;
+  font-weight: 900;
+  background-color: rgba(72,72,28,0.3);
+  padding: 0 7px;
+}

@@ -1,0 +1,13 @@
+<div id="list-offer-entries-page" class="offer-entry-page highlighted-content-page page-wrapper">
+    <page-main-header title="title"></page-main-header>
+    <div ng-if="activeViewType === 'breadcrumb' && hasEntriesToShow()"
+         class="page-content transparent-background horizontal-separation">
+        <div class="page-section border-less flex-50-width max-width-800"
+             ng-repeat="entry in existingEntries track by $index">
+            <preview-actions-container content-model="entry"
+                                       container-class="offer"
+                                       icon-class="offer">
+            </preview-actions-container>
+        </div>
+    </div>
+</div>

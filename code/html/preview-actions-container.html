@@ -1,0 +1,16 @@
+<div class="preview-actions-container"
+     ng-mouseleave="triggerActionsToggle(false)">
+    <preview-container ng-mouseover="triggerActionsToggle(true)"
+                       content-model="contentModel"
+                       container-class="{{containerClass}} breadcrumb-preview"
+                       icon-class="{{iconClass}}">
+    </preview-container>
+    <div ng-if="showActions"
+         class="actions-cover-container breadcrumb-preview preview-container">
+        <div ng-repeat="action in actions track by $index"
+             ng-click="triggerEntityAction(action.slug)"
+             class="actions-cover-item {{action.className}}">
+            <span class="actions-cover-title">{{action.title}}</span>
+        </div>
+    </div>
+</div>

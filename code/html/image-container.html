@@ -1,0 +1,10 @@
+<div class="image-container"
+     ng-class="{'full-size': isFullSize}"
+     ng-click="toggleView($event)">
+    <div class="entry-title">
+        <span ng-if="contentModel.title" class="title-main">{{contentModel.title}}</span>
+    </div>
+    <div class="entry-preview">
+        <div class="image" ng-style="{'background-image': 'url(assets/images/' + contentModel.image + ')'}"></div>
+    </div>
+</div>

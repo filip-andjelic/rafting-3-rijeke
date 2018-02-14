@@ -1,0 +1,10 @@
+<div id="gallery-page" class="page-wrapper">
+    <page-main-header title="title">
+    </page-main-header>
+    <div class="page-content transparent-background horizontal-separation">
+        <div class="page-section margin-20 no-borders flex-20-width max-height-300 max-width-300"
+             ng-repeat="entry in existingEntries track by $index">
+            <image-container content-model="entry"></image-container>
+        </div>
+    </div>
+</div>

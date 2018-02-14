@@ -1,0 +1,13 @@
+<div class="preview-container {{containerClass}}">
+    <div class="entry-preview-title">
+        <span ng-if="getMainTitle()" class="title-main">{{getMainTitle()}}</span>
+        <span ng-if="getSubTitle()" class="title-sub">{{getSubTitle()}}</span>
+    </div>
+    <div class="entry-preview-description max-height-400">
+        <span ng-if="getMainContent()" class="description max-height-150">{{getMainContent()}}</span>
+        <span ng-if="getSubContent()" class="sub-description">{{getSubContent()}}</span>
+    </div>
+    <div ng-if="getPrice()" class="entry-preview-type entry-type-special">
+        <span>{{getPrice()}}</span>
+    </div>
+</div>

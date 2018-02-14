@@ -1,0 +1,24 @@
+<div id="contact-page" class="page-wrapper">
+    <page-main-header title="title"></page-main-header>
+    <div class="page-content horizontal-separation central-text">
+        <div class="max-width-prc-30 page-section">
+            <div class="user-input-element">
+                <label>{{fewWords}}</label>
+                <div class="content-paragraph">{{aboutContent}}</div>
+            </div>
+        </div>
+        <div class="max-width-prc-30 page-section">
+            <div class="user-input-element">
+                <label>{{contactUs}}</label>
+                <div class="content-paragraph margin-auto" ng-bind-html="contactContent"></div>
+            </div>
+        </div>
+        <div class="max-width-prc-30 page-section">
+            <div class="user-input-element">
+                <label>{{ourLocation}}</label>
+                <div class="content-paragraph">{{locationContent}}</div>
+                <div id="google-map"></div>
+            </div>
+        </div>
+    </div>
+</div>
