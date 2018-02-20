@@ -14,5 +14,9 @@ angular.module('archApp')
             };
 
             initialize();
+
+            $scope.$on('Actions.Everything.Reload', function() {
+                initialize();
+            });
         }
     ]);
