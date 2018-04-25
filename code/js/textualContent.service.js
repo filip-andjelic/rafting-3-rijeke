@@ -146,23 +146,20 @@ angular.module('archApp')
                     },
                     two: {
                         sr: {
-                            title: 'Two-day rafting tour',
-                            subTitle: 'Route : Brštanovica – Šćepan Polje',
-                            content: 'I day - \n' +
-                            'Arrival at Šćepan Polje in the evening hours. Parking your car on our parking lot, leaving your things in your bungalow or room (or at your tent if you prefer). You can spend the evening by our campfire, listening to the music and chilling by the riverside. Before sleep you have dinner and free time to relax after that.\n' +
-                            'Sleep over. \n' +
-                            'II day - \n' +
-                            'Waking up in early morning, having a breakfast, preparing for drive to the start point of the tour - Brštanovica. Driving 14km up by the river with off-read trucks. Preparing for rafting, sharing instructions, advices and equipment. Loading the boats and start of rafting tour. We will hit 23 of total 50 Tara\'s whirlpools, with short breaks for taking pictures, relaxing, swimming and so on...\n' +
-                            'End of the tour at the meeting point of river Tara and Piva, border of Republic of Montenegro and Bosnia and Herzegovina. Changing clothes and taking a shower in the camp, serving the lunch afterwards. Tour has ended, but the guests are free to enjoy the rest of the day in our facility or to take a walk in the nature.\n' +
-                            'Packing your things and leaving the camp.',
-                            subContent: 'Price of this tour includes:\n' +
-                            '- one night sleep (bungalows, rooms and tents)\n' +
-                            '- off-road drive to the starting point and rating tour\n' +
-                            '- rafting equipment: diving suits, helmets, safeguards, diving boots ...\n' +
-                            'Price of this tour doesn\'t include:\n' +
-                            '- other costs, not predicted in programme\n' +
-                            'Children under the age of 6 have 50% discount.\\n' +
-                            'Children under the age of 12 have 30% discount\'',
+                            title: 'Dvodnevni rafting izlet',
+                            subTitle: 'Ruta : Brštanovica – Šćepan Polje',
+                            content: 'Prvi dan - \n' +
+                            'Dolazak gostiju na Šćepan Polje u večernjim časovima. Nakon parkiranja vozila na našem parkingu prihvat i smještaj gostiju u bungalove ili pod šatore u kampu koji je na samim obalama Tare i Pive gdje počinje rijeka Drina. Potom slijedi  večera i cjelovečernje druženje uz muziku i logorsku vatru....\n' +
+                            'Noćenje.\n' +
+                            'Drugi dan - \n' +
+                            'Buđenje u ranim jutarnjim časovima, doručak, nakon čega slijede pripreme za polazak na startno mjesto raftinga – Brštanovicu. Transfer terenskim vozilima uzvodno uz rijeku Taru makadamskim putem dužine oko 14 km,oblačenje opreme, davanje instrukcija , formiranje grupa i ukrcavanje na čamce. Rafting najuzbudljivom dionicom Tare (BrštanovicaŠćepanPolje) niz 23 od ukupno 50 brzaka Tare, sa kraćim pauzama za odmor, kupanje, fotografi sanje... Po završetku raftinga, na samom ušću Tare i Pive, gdje počinje rijeka Drina , tuširanje i presvlačenje u  kampu, (topla voda),potom  ručak. Odmor i slobodne aktivnosti.\n',
+                            subContent: 'U cijenu ovog programa uračunato je:\n' +
+                            '- smještaj na bazi 1 pansiona (noćenje u bungalovima)\n' +
+                            '- transfer terenskim vozilima i splavarenje rijekom Tarom\n' +
+                            '- oprema za rafting: neoprenska odijela, kacige, pojasevi, ronilačke čizme…\n' +
+                            'U cijenu programa nije uračunato:\n' +
+                            '- svi drugi troškovi koji nisu predviđeni programom.\n' +
+                            'Djeca do 12 godina imaju popust 30%',
                             price: '50€'
                         },
                         en: {
