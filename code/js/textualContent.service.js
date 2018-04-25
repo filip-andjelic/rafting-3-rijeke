@@ -203,7 +203,26 @@ angular.module('archApp')
                             'Djeca do 12 godina imaju popust 30%',
                             price: '70€'
                         },
-                        en: {}
+                        en: {
+                            title: 'Three-day rafting tour',
+                            subTitle: 'Route : River Tara plus Piva Lake cruising',
+                            content: 'I day - \n' +
+                            'Arrival at Šćepan Polje in the evening hours. Parking your car on our parking lot, leaving your things in your bungalow or room (or at your tent if you prefer). You can spend the evening by our campfire, listening to the music and chilling by the riverside. Before sleep you have dinner and free time to relax after that.\n' +
+                            'Sleep over. \n' +
+                            'II day - \n' +
+                            'Waking up in early morning, having a breakfast, preparing for drive to the start point of the tour - Brštanovica. Driving 14km up by the river with off-read trucks. Preparing for rafting, sharing instructions, advices and equipment. Loading the boats and start of rafting tour. We will hit 23 of total 50 Tara\'s whirlpools, with short breaks for taking pictures, relaxing, swimming and so on...\n' +
+                            'III day - \n' +
+                            'After breakfast, crew goes to Pluzine town, where it onboard to a vessel, and takes a cruise across the Piva Lake. When cruising is finished, lunch is served. After that, guests can enjoy the stay in a beautiful nature, or prepare to go home.',
+                            subContent: 'Price of this tour includes:\n' +
+                            '- one night sleep (bungalows, rooms and tents)\n' +
+                            '- off-road drive to the starting point and rating tour\n' +
+                            '- rafting equipment: diving suits, helmets, safeguards, diving boots ...\n' +
+                            'Price of this tour doesn\'t include:\n' +
+                            '- other costs, not predicted in programme\n' +
+                            'Children under the age of 6 have 50% discount.\\n' +
+                            'Children under the age of 12 have 30% discount\'',
+                            price: '70€'
+                        }
                     },
                     complete: {
                         sr: {
@@ -222,7 +241,24 @@ angular.module('archApp')
                             'Djeca do 12 godina imaju popust 30%',
                             price: '180€'
                         },
-                        en: {}
+                        en: {
+                            title: 'Rafting through whole river flow',
+                            subTitle: 'Route : Šljivansko - Radovan Luka - Šćepan Polje',
+                            content: 'I day - \n' +
+                            'Arrival at Šljivansko in the morning. Parking your car on our parking lot, leaving your things in your bungalow or room (or at your tent if you prefer). Boarding into the boats, and taking the river down to Radovan luka, which lasts about 3-4 hours. Arriving at the camp, having lunch, bathing and relaxed evenng with friends.\n' +
+                            'Sleep over. \n' +
+                            'II day - \n' +
+                            'Rising up in the early morning, having breakfast. After that, making preparations for continuing our rafting. Going down the river to the Scepan Polje, which lasts for about 6 hours, depending on velocity of the flow. After finishing the rafting, crew goes back to their camp and stuff.',
+                            subContent: 'Price of this tour includes:\n' +
+                            '- one night sleep (bungalows, rooms and tents)\n' +
+                            '- off-road drive to the starting point and rating tour\n' +
+                            '- rafting equipment: diving suits, helmets, safeguards, diving boots ...\n' +
+                            'Price of this tour doesn\'t include:\n' +
+                            '- other costs, not predicted in programme\n' +
+                            'Children under the age of 6 have 50% discount.\\n' +
+                            'Children under the age of 12 have 30% discount\'',
+                            price: '180€'
+                        }
                     }
                 };
                 var selectedLanguageText = {};
