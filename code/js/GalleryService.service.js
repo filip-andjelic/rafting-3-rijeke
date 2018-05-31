@@ -2,7 +2,7 @@ angular.module('archApp')
     .service('GalleryService', ['TextualContentService',
         function(TextualContentService) {
         function createFrames() {
-            return [{
+            return [/*{
                 image: '_13_00017.jpg',
                 title: {
                     en: 'Bungalow',
@@ -152,7 +152,7 @@ angular.module('archApp')
                     en: 'Accomodation',
                     sr: 'Smjestaj'
                 }
-            }, {
+            }, */{
                 image: 'sastavci.jpg',
                 title: {
                     en: 'Camp location',

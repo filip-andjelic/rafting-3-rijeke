@@ -48,14 +48,14 @@ angular.module('archApp')
                         }
 
                         break;
-                    case 'around':
+                    /*case 'around':
                         setItemToOpen('around');
 
                         if (!omitStateChange) {
                             $state.go('contact');
                         }
 
-                        break;
+                        break;*/
                 }
             }
 
