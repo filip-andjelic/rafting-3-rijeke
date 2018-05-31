@@ -71,11 +71,11 @@ angular.module('archApp')
                 iconClass: 'offer',
                 view: 'list_offers',
                 open: true
-            }, {
+            }, /*{
                 iconClass: 'around',
                 view: 'around',
                 open: false
-            }, {
+            }, */{
                 iconClass: 'gallery',
                 view: 'gallery',
                 open: false
